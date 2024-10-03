@@ -1,0 +1,9 @@
+{
+	"name": "irodriguezdatafactory1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2673caa4-eea7-431d-b9f3-de14b4620674",
+		"tenantId": "96b09a48-c34d-4802-a0e9-9bc9f4997a2f"
+	}
+}
