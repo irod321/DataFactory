@@ -1,0 +1,13 @@
+{
+	"name": "Conector_ADLS_DataFactory",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Linked server entre los servicios Azure Data Lake Storage Gen 2 y Data Factory Studio ",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://irodriguezhanco.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQERGMjg2N0QxLTcxOTUtNDQyQi05QkIxLUIxRTQxNkY4Q0RCMV9kODU3N2NiZS0xZTNjLTQyNDQtYjI5MS1lNGQxODg2ZGE1NzgiDQp9"
+		}
+	}
+}
