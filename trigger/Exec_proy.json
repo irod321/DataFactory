@@ -1,0 +1,24 @@
+{
+	"name": "Exec_proy",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Ejecucion",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 12,
+				"startTime": "2024-10-05T03:27:00",
+				"timeZone": "SA Pacific Standard Time"
+			}
+		}
+	}
+}
